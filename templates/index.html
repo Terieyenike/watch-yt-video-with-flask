@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="../static/assets/css/main.css" />
   </head>
   <body>
-    <div><i class="fa-brands fa-youtube"></i></div>
     <h1>Watch a YouTube Video</h1>
-    <form action="/watch" method="post">
-      <label for="song">Enter song name:</label><br />
-      <input type="text" id="song" name="song" /><br />
-      <input type="submit" value="Watch" />
-    </form>
+    <div class="centre">
+      <div><i class="fa-brands fa-youtube"></i></div>
+      <form action="/watch" method="post">
+        <label for="video">Enter video name:</label>
+        <input
+          type="text"
+          id="video"
+          name="video"
+          placeholder="type in a video" />
+        <button type="submit">Watch</button>
+      </form>
+    </div>
     <footer>
       <p>&copy; 2024. Build by Teri</p>
     </footer>
