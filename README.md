@@ -21,7 +21,7 @@ Before running the application, ensure you have the following:
 ### Clone the repository
 
 ```
-git clone
+git clone https://github.com/Terieyenike/watch-yt-video-with-flask
 cd watch-yt-video-with-flask
 ```
 
